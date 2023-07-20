@@ -1,5 +1,5 @@
 .construct {
-    width: 30%;
+    width: 20rem;
     margin: 0 auto;
     padding-top:1rem;
     padding-bottom: 1rem;
@@ -14,4 +14,10 @@
 
 p{
     color : var( --color-bg-variant);
+}
+
+@media screen and (max-width: 600px){
+    .construct{
+        width: 10rem;
+    }
 }
