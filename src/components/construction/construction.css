@@ -1,4 +1,5 @@
 .construct {
+    margin-top:4rem;
     width: 20rem;
     margin: 0 auto;
     padding-top:1rem;
@@ -18,6 +19,20 @@ p{
 
 @media screen and (max-width: 600px){
     .construct{
-        width: 10rem;
+        margin-top:2.3rem;
+        width: 15rem;
+        padding: 0.5rem;
+        font-weight:600;
+        font-size:0.9rem;
     }
 }
+
+
+@media screen and (max-width: 1024px){
+    .construct{
+        margin-top:2.5rem;
+        width: 15rem;
+        padding: 0.5rem;
+        font-weight:600;
+        font-size:0.9rem;
+    }}
