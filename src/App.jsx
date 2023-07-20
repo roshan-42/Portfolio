@@ -8,6 +8,7 @@ import Portfolio from './components/portfolio/Portfolio'
 import Contact from './components/contact/Contact'
 import Footer from './components/footer/Footer'
 import Testimonials from './components/testimonials/Testimonials'
+import Construction from './components/construction/Construction'
 
 
 
@@ -15,15 +16,17 @@ import Testimonials from './components/testimonials/Testimonials'
 const App = () => {
   return (
     <>
+    {/* <Nav />  */}
     <Header />
-    <Nav /> 
-    <About />
+    
+    <Construction />
+    {/* <About />
     <Experience />
     <Services />
     <Portfolio />
     <Contact />
     <Footer />
-    <Testimonials />
+    <Testimonials /> */}
     
     </>
   )

@@ -1,0 +1,17 @@
+.construct {
+    width: 50%;
+    margin: 0 auto;
+    padding-top:2rem;
+    padding-bottom: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--color-white);
+    border-radius: 10px 50px;
+    font-size: 1rem;
+    font-weight: 500;
+}
+
+p{
+    color : var( --color-bg-variant);
+}
