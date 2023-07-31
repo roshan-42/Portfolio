@@ -13,9 +13,8 @@ import Construction from "./components/construction/Construction";
 const App = () => {
   return (
     <>
-      <Nav />
       <Header />
-
+      <Nav />
       <Construction />
       <About />
       <Experience />
