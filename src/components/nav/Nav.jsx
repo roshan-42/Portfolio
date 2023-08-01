@@ -23,6 +23,7 @@ const Nav = () => {
       </a>
       <a href="#contact">
         <AiFillMessage />
+        <p>I might delete this later</p>
       </a>
     </nav>
   );
