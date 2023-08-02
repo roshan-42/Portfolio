@@ -1,38 +1,38 @@
 .construct {
-    margin-top:4rem;
-    width: 20rem;
-    margin: 0 auto;
-    padding-top:1rem;
-    padding-bottom: 1rem;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-color: var(--color-white);
-    border-radius: 10px 50px;
-    font-size: 1rem;
-    font-weight: 500;
+  margin-top: 4rem;
+  width: 20rem;
+  margin: 0 auto;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--color-white);
+  border-radius: 10px 50px;
+  font-size: 1rem;
+  font-weight: 500;
 }
 
-p{
-    color : var( --color-bg-variant);
+p {
+  color: var(--color-bg-variant);
 }
 
-@media screen and (max-width: 600px){
-    .construct{
-        margin-top:2.3rem;
-        width: 15rem;
-        padding: 0.5rem;
-        font-weight:600;
-        font-size:0.9rem;
-    }
+@media screen and (max-width: 600px) {
+  .construct {
+    margin-top: 2.3rem;
+    width: 15rem;
+    padding: 0.5rem;
+    font-weight: 600;
+    font-size: 0.9rem;
+  }
 }
 
-
-@media screen and (max-width: 1024px){
-    .construct{
-        margin-top:2.5rem;
-        width: 15rem;
-        padding: 0.5rem;
-        font-weight:600;
-        font-size:0.9rem;
-    }}
+@media screen and (max-width: 1024px) {
+  .construct {
+    margin-top: 2.5rem;
+    width: 15rem;
+    padding: 0.5rem;
+    font-weight: 600;
+    font-size: 0.9rem;
+  }
+}
