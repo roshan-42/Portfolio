@@ -5,23 +5,50 @@ import { AiOutlineUser } from "react-icons/ai";
 import { BiSolidBook } from "react-icons/bi";
 import { RiServiceFill } from "react-icons/ri";
 import { AiFillMessage } from "react-icons/ai";
+import { useState } from "react";
 
 const Nav = () => {
+  const [activeNav, setActiveNav] = useState("#");
   return (
     <nav>
-      <a href="#" className="active">
+      {/* if the active nav = "#", then we want to give it the 'active' class : if not we will give it nothing, so there is going to be no class i.e ' ' */}
+      <a
+        href="#"
+        onClick={() => setActiveNav("#")}
+        className={activeNav === "#" ? "active" : ""}
+      >
         <AiOutlineHome />
       </a>
-      <a href="#about">
+      {/* OnClick about i want to change the state value. If it is about, then i want to give it the active class: If not then, it should have no class */}
+      <a
+        href="#about"
+        onClick={() => setActiveNav("#about")}
+        className={activeNav === "#about" ? "active" : ""}
+      >
         <AiOutlineUser />
       </a>
-      <a href="#experience">
+      {/* ======For experience========= */}
+      <a
+        href="#experience"
+        onClick={() => setActiveNav("#experience")}
+        className={activeNav === "#experience" ? "active" : ""}
+      >
         <BiSolidBook />
       </a>
-      <a href="#services">
+      {/* ==========For services=========== */}
+      <a
+        href="#services"
+        onClick={() => setActiveNav("#services")}
+        className={activeNav === "#services" ? "active" : ""}
+      >
         <RiServiceFill />
       </a>
-      <a href="#contact">
+      {/* =============For contact========== */}
+      <a
+        href="#contact"
+        onClick={() => setActiveNav("#contact")}
+        className={activeNav === "#contact" ? "active" : ""}
+      >
         <AiFillMessage />
       </a>
       <p>
