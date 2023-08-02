@@ -27,6 +27,11 @@ nav a {
 nav a:hover {
   background: rgba(0, 0, 0, 0.3);
 }
+nav a.active {
+  background: var(--color-bg);
+  color: var(--color-white);
+}
+
 nav p {
   color: rgb(229, 230, 231);
   display: flex;
