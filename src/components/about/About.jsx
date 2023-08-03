@@ -45,10 +45,15 @@ const About = () => {
             </article>
           </div>
           <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti
-            pariatur rerum, repellat eligendi ratione temporibus saepe ab
-            corporis dolores cumque iste libero eius hic obcaecati eos et in
-            quis eaque!
+            Hello, I'm Roshan Acharya, a dedicated and enthusiastic student
+            studying CSIT at Amrit Science Campus. Originally from the
+            picturesque district of Dang, Nepal, I now call Lainchaur,
+            Kathmandu, my current home. The world of technology has always
+            fascinated me, and I am thrilled to be pursuing my passion in
+            Computer Science and Information Technology through the BSC.CSIT
+            program. I look forward to embracing the challenges and
+            opportunities that come my way as I strive to achieve my goals in
+            this ever-evolving field.
           </p>
           <a href="#contact" className="btn btn-primary">
             Let's Talk
