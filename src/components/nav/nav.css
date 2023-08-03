@@ -1,6 +1,6 @@
 nav {
   background: rgba(0, 0, 0, 0.3);
-  width: max-content;
+  width: auto;
   display: block;
   padding: 0.7rem 1.7rem;
   /* top-bottom, left-right */
@@ -37,4 +37,26 @@ nav p {
   display: flex;
   position: relative;
   align-items: center;
+}
+
+/* Media query for mobile phones */
+@media screen and (max-width: 480px) {
+  nav {
+    /* Adjust the padding and bottom spacing for mobile */
+    padding: 0.5rem 1.2rem;
+    bottom: 1.5rem;
+    gap: 0.6rem; /* Reduce the gap between elements */
+  }
+
+  nav a {
+    /* Reduce the font size and padding for mobile nav links */
+    font-size: 1rem;
+    padding: 0.7rem;
+  }
+
+  nav p {
+    /* Adjust the font-size and alignment for mobile nav paragraphs */
+    font-size: 0.9rem;
+    align-items: flex-start;
+  }
 }
