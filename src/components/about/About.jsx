@@ -34,14 +34,14 @@ const About = () => {
             <article className="about__card">
               <FiUsers className="about__icon" />
               <h5>Clients</h5>
-              <small>300+ Worldwide</small>
+              <small>1</small>
             </article>
 
             {/* Projects */}
             <article className="about__card">
               <VscFolderLibrary className="about__icon" />
               <h5>Projects</h5>
-              <small>10+ completed</small>
+              <small>3+ completed</small>
             </article>
           </div>
           <p>
