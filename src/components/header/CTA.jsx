@@ -12,13 +12,13 @@ const CTA = () => {
       >
         Download CV
       </a>
-
       <a
         href="#contact"
         className="bg-gray-900 px-5 rounded-xl flex items-center text-white hover:bg-white hover:text-black"
       >
         Let's Talk
       </a>
+      {/* comment */}
     </div>
   );
 };
