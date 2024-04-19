@@ -4,14 +4,21 @@ import ME from "../../assets/mypic.jpg";
 import { FaAward } from "react-icons/fa";
 import { FiUsers } from "react-icons/fi";
 import { VscFolderLibrary } from "react-icons/vsc";
+import { motion, useScroll } from "framer-motion";
 
 const About = () => {
+  const { scrollYProgress } = useScroll();
   return (
     <section id="about">
       <h5>Get To Know</h5>
       <h2>About Me</h2>
 
-      <div className="container about__container">
+      <motion.div
+        initial={{ opacity: 0, scale: 0.8 }}
+        transition={{ duration: 0.5 }}
+        whileInView={{ opacity: 1, scale: 1 }}
+        className="container about__container"
+      >
         {/*===============Image-section==========  */}
 
         <div className="about__me">
@@ -59,7 +66,7 @@ const About = () => {
             Let's Talk
           </a>
         </div>
-      </div>
+      </motion.div>
     </section>
   );
 };
