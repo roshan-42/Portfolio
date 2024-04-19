@@ -11,18 +11,18 @@ import Testimonials from "./components/testimonials/Testimonials";
 
 const App = () => {
   return (
-    <>
+    <div className="bg-gradient-to-br from-gray-800 to-cyan-700">
       <Header />
       <Nav />
       {/* <Construction /> */}
       <About />
-      <Experience />
+      {/* <Experience />
       <Services />
       <Portfolio />
       <Contact />
       <Footer />
-      <Testimonials />
-    </>
+      <Testimonials /> */}
+    </div>
   );
 };
 

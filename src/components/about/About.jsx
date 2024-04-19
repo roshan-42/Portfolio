@@ -62,7 +62,10 @@ const About = () => {
             opportunities that come my way as I strive to achieve my goals in
             this ever-evolving field.
           </p>
-          <a href="#contact" className="btn btn-primary">
+          <a
+            href="#contact"
+            className="bg-gray-900 px-5 py-2 rounded-xl text-white hover:bg-white hover:text-gray-900"
+          >
             Let's Talk
           </a>
         </div>
