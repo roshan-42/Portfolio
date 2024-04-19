@@ -52,15 +52,13 @@ const About = () => {
             </article>
           </div>
           <p>
-            Hello, I'm Roshan Acharya, a dedicated and enthusiastic student
-            studying CSIT at Amrit Science Campus. Originally from the
-            picturesque district of Dang, Nepal, I now call Lainchaur,
-            Kathmandu, my current home. The world of technology has always
-            fascinated me, and I am thrilled to be pursuing my passion in
-            Computer Science and Information Technology through the BSC.CSIT
-            program. I look forward to embracing the challenges and
-            opportunities that come my way as I strive to achieve my goals in
-            this ever-evolving field.
+            Hey! I'm a React developer, graduated from Amrit Science Campus with
+            a degree in Computer Science. Currently based in Kathmandu,
+            originally from Dang. I'm passionate about technology and love
+            learning new things. React has become my playground for crafting
+            dynamic user experiences. Beyond coding, I find joy in simple
+            pleasures like exploring places, reading books and connecting with
+            others. Let's dive into the world of tech together!
           </p>
           <a
             href="#contact"
